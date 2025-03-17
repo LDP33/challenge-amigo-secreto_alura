@@ -54,4 +54,4 @@ A continuación se muestra un video de demostración de validaciones, cómo agre
 
 ## Autor
 
-Desarrollado por Leandro Pollano como parte del curso de ONE (Oracle Next Education).
+Desarrollado por Leandro Pollano como parte del curso de Alura-ONE (Oracle Next Education).
