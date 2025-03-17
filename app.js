@@ -40,3 +40,22 @@ function actualizarListaVisible() {
         listaAmigosElement.appendChild(li);
     }
 }
+
+// Función para sortear un amigo aleatorio
+function sortearAmigo() {
+    // Verificar que haya al menos un amigo en la lista
+    if (listaDeAmigos.length === 0) {
+        alert('Agregue al menos un amigo antes de sortear');
+        return;
+    }
+    
+    // Seleccionar un índice aleatorio
+    const indiceAleatorio = Math.floor(Math.random() * listaDeAmigos.length);
+    
+    // Obtener el nombre del amigo seleccionado
+    const amigoSeleccionado = listaDeAmigos[indiceAleatorio];
+    
+    // Mostrar el resultado en la página
+    const resultadoElement = document.getElementById('resultado');
+    resultadoElement.textContent = `¡${amigoSeleccionado} ha sido seleccionado!`;
+}
