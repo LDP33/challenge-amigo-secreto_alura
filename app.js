@@ -59,3 +59,10 @@ function sortearAmigo() {
     const resultadoElement = document.getElementById('resultado');
     resultadoElement.textContent = `¡${amigoSeleccionado} ha sido seleccionado!`;
 }
+
+// Agregar evento para permitir presionar Enter en el campo de texto
+document.getElementById('amigo').addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+        agregarAmigo();
+    }
+});
