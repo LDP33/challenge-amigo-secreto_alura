@@ -36,7 +36,7 @@ La funcionalidad principal de la aplicación está implementada en JavaScript (`
 
 A continuación se muestra un video de demostración de validaciones, cómo agregar nombres y realizar el sorteo:
 
-![Video de demostración](assets/demostración.webm)
+![Video de demostración](assets/demostración.gif)
 
 ## Uso
 
